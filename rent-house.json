@@ -1,37 +1,120 @@
 {
   "properties": [
-      {
-  "id": 3,
-  "title": "3-Bedroom Portion for Rent",
-  "type": "House",
-  "rent_per_month": 38000,
-  "currency": "PKR",
-  "location": {
-    "city": "Karachi",
-    "area": "Gulshan-e-Iqbal Block 13-D",
-    "address": "House #11, Street 8, Block 13-D, Gulshan-e-Iqbal"
-  },
-  "features": {
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "area_sqft": 950,
-    "parking": false,
-    "balcony": true,
-    "floor": "Ground Floor",
-    "furnished": false,
-    "electricity_meter": "Separate",
-    "gas_meter": "Shared"
-  },
-  "images": [
-    "images/rent1/front.jpg",
-    "images/rent1/bedroom.jpg",
-    "images/rent1/lounge.jpg"
-  ],
-  "available": true
-}
-
-    
-
-
+    {
+      "id": 1,
+      "title": "2-Room Ground Portion for Rent",
+      "type": "House",
+      "rent_per_month": 18000,
+      "currency": "PKR",
+      "location": {
+        "city": "Karachi",
+        "area": "New Karachi Sector 11-F",
+        "address": "House #B-22, Sector 11-F, New Karachi"
+      },
+      "features": {
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "area_sqft": 700,
+        "parking": false,
+        "balcony": false,
+        "floor": "Ground Floor",
+        "furnished": false,
+        "electricity_meter": "Shared",
+        "gas_meter": "Shared"
+      },
+      "images": [
+        "images/rent-low1/front.jpg",
+        "images/rent-low1/room.jpg",
+        "images/rent-low1/kitchen.jpg"
+      ],
+      "available": true
+    },
+    {
+      "id": 2,
+      "title": "1-Bed Flat for Rent in Korangi",
+      "type": "Flat",
+      "rent_per_month": 15000,
+      "currency": "PKR",
+      "location": {
+        "city": "Karachi",
+        "area": "Korangi 3½",
+        "address": "Flat #A-07, Korangi Sector 3½"
+      },
+      "features": {
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "area_sqft": 500,
+        "parking": false,
+        "balcony": false,
+        "floor": "2nd Floor",
+        "furnished": false,
+        "electricity_meter": "Separate",
+        "gas_meter": "Shared"
+      },
+      "images": [
+        "images/rent-low2/front.jpg",
+        "images/rent-low2/bedroom.jpg",
+        "images/rent-low2/lounge.jpg"
+      ],
+      "available": true
+    },
+    {
+      "id": 3,
+      "title": "Portion for Rent in Orangi Town",
+      "type": "House",
+      "rent_per_month": 12000,
+      "currency": "PKR",
+      "location": {
+        "city": "Karachi",
+        "area": "Orangi Town Sector 9",
+        "address": "House #R-99, Street 3, Sector 9"
+      },
+      "features": {
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "area_sqft": 600,
+        "parking": false,
+        "balcony": false,
+        "floor": "First Floor",
+        "furnished": false,
+        "electricity_meter": "Shared",
+        "gas_meter": "Shared"
+      },
+      "images": [
+        "images/rent-low3/front.jpg",
+        "images/rent-low3/room.jpg",
+        "images/rent-low3/washroom.jpg"
+      ],
+      "available": true
+    },
+     {
+      "id": 4,
+      "title": "1-Bedroom Ground Floor Portion for Rent",
+      "type": "House",
+      "rent_per_month": 17000,
+      "currency": "PKR",
+      "location": {
+        "city": "Karachi",
+        "area": "Liaquatabad C Area",
+        "address": "House #C-110, Near Masjid Noor, Liaquatabad"
+      },
+      "features": {
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "area_sqft": 550,
+        "parking": false,
+        "balcony": false,
+        "floor": "Ground Floor",
+        "furnished": false,
+        "electricity_meter": "Separate",
+        "gas_meter": "Shared"
+      },
+      "images": [
+        "images/rent-low4/front.jpg",
+        "images/rent-low4/bedroom.jpg",
+        "images/rent-low4/kitchen.jpg"
+      ],
+      "available": true
+    }
   ]
 }

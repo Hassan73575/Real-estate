@@ -1,0 +1,158 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "title": "Luxury 5-Bedroom Bungalow in DHA Phase 6",
+      "type": "House",
+      "price": 220000000,
+      "currency": "PKR",
+      "location": {
+        "city": "Karachi",
+        "area": "DHA Phase 6",
+        "address": "Plot 15-C, Street 9, DHA Phase 6"
+      },
+      "features": {
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "parking": true,
+        "balcony": true,
+        "furnished": true,
+        "servant_quarters": true,
+        "lawn": true,
+        "swimming_pool": true
+      },
+        "extra_features": [
+        "Smart home automation system",
+        "Imported Italian kitchen fittings",
+        "Marble flooring throughout",
+        "CCTV camera system",
+        "Separate entrance for servant",
+        "Solar panel system installed",
+        "Rooftop seating area with BBQ station"
+      ],
+      "images": [
+        "images/buy1/front.jpg",
+        "images/buy1/livingroom.jpg",
+        "images/buy1/garden.jpg"
+      ],
+      "available": true
+    },
+    {
+      "id": 2,
+      "title": "Modern 4-Bedroom House in Clifton Block 5",
+      "type": "House",
+      "price": 195000000,
+      "currency": "PKR",
+      "location": {
+        "city": "Karachi",
+        "area": "Clifton Block 5",
+        "address": "Bungalow #22, Khayaban-e-Iqbal, Clifton Block 5"
+      },
+      "features": {
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "area_sqft": 4800,
+        "parking": true,
+        "balcony": true,
+        "furnished": false,
+        "servant_quarters": true,
+        "lawn": false,
+        "swimming_pool": false,
+        "generator_backup": true
+      },
+      "extra_features": [
+        "Full glass front elevation",
+        "German kitchen appliances",
+        "Centralized air conditioning system",
+        "Underground water tank with filtration",
+        "Stylish false ceilings with LED lighting",
+        "Motion-sensor security lights",
+        "Remote-controlled gate access"
+      ],
+      "images": [
+        "images/buy2/front.jpg",
+        "images/buy2/kitchen.jpg",
+        "images/buy2/bedroom.jpg"
+      ],
+      "available": true
+    },
+    {
+      "id": 3,
+      "title": "4-Bedroom Designer Villa in Bahria Town Karachi",
+      "type": "Villa",
+      "price": 130000000,
+      "currency": "PKR",
+      "location": {
+        "city": "Karachi",
+        "area": "Bahria Town",
+        "address": "Villa #48, Precinct 1, Bahria Town Karachi"
+      },
+      "features": {
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "area_sqft": 4200,
+        "parking": true,
+        "balcony": true,
+        "furnished": true,
+        "servant_quarters": true,
+        "lawn": true,
+        "swimming_pool": false,
+        "generator_backup": false
+      },
+      "extra_features": [
+        "Smart door lock with fingerprint access",
+        "24/7 gated community security",
+        "Landscaped front garden",
+        "Spacious walk-in closets",
+        "Community access to parks and gym",
+        "Dedicated guest lounge",
+        "Automatic water level system"
+      ],
+      "images": [
+        "images/buy3/front.jpg",
+        "images/buy3/living.jpg",
+        "images/buy3/dining.jpg"
+      ],
+      "available": true
+    },
+    {
+      "id": 4,
+      "title": "Premium 4-Bedroom House in PECHS Block 2",
+      "type": "House",
+      "price": 175000000,
+      "currency": "PKR",
+      "location": {
+        "city": "Karachi",
+        "area": "PECHS Block 2",
+        "address": "House #109, PECHS Block 2, Shahrah-e-Faisal"
+      },
+      "features": {
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "area_sqft": 4600,
+        "parking": true,
+        "balcony": true,
+        "furnished": false,
+        "servant_quarters": false,
+        "lawn": true,
+        "swimming_pool": false,
+        "generator_backup": true
+      },
+       "extra_features": [
+        "Double-glazed windows for noise reduction",
+        "Dedicated home office space",
+        "Modular kitchen design",
+        "Premium lighting and chandeliers",
+        "Custom woodwork and cabinetry",
+        "Close to shopping malls and hospitals",
+        "Fiber optic internet ready"
+      ],
+      "images": [
+        "images/buy4/front.jpg",
+        "images/buy4/stairs.jpg",
+        "images/buy4/bedroom.jpg"
+      ],
+      "available": true
+    }
+  ]
+}

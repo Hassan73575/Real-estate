@@ -1,0 +1,128 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "title": "Ground Floor Shop in Tariq Road Market",
+      "type": "Commercial Shop",
+      "price": 3500000,
+      "currency": "PKR",
+      "location": {
+        "city": "Karachi",
+        "area": "Tariq Road",
+        "address": "Shop #G-12, Al-Rehman Mall, Tariq Road"
+      },
+      "features": {
+        "floor_level": "Ground",
+        "area_sqft": 400,
+        "corner_shop": true,
+        "electricity_meter": "Separate",
+        "gas_connection": false,
+        "washroom": false
+      },
+      "extra_features": [
+        "High footfall commercial area",
+        "24/7 security",
+        "Near branded outlets",
+        "Ideal for retail business"
+      ],
+      "images": [
+        "images/shop1/front.jpg",
+        "images/shop1/inside.jpg"
+      ],
+      "available": true
+    },
+    {
+      "id": 2,
+      "title": "Shop for Sale in Clifton Block 7",
+      "type": "Commercial Shop",
+      "price": 5500000,
+      "currency": "PKR",
+      "location": {
+        "city": "Karachi",
+        "area": "Clifton Block 7",
+        "address": "Shop #14, Emerald Plaza, Block 7"
+      },
+      "features": {
+        "floor_level": "Lower Ground",
+        "area_sqft": 550,
+        "corner_shop": false,
+        "electricity_meter": "seperate",
+        "gas_connection": false,
+        "washroom": true
+      },
+      "extra_features": [
+        "Elevator access",
+        "CCTV surveillance",
+        "Glass front display",
+        "Ideal for salon or boutique"
+      ],
+      "images": [
+        "images/shop2/front.jpg",
+        "images/shop2/display.jpg"
+      ],
+      "available": true
+    },
+    {
+      "id": 3,
+      "title": "Double Shutter Shop in Saddar",
+      "type": "Commercial Shop",
+      "price": 4200000,
+      "currency": "PKR",
+      "location": {
+        "city": "Karachi",
+        "area": "Saddar",
+        "address": "Shop #2A, Mobile Market, Saddar"
+      },
+      "features": {
+        "floor_level": "Ground",
+        "area_sqft": 700,
+        "corner_shop": true,
+        "electricity_meter": "Separate",
+        "gas_connection": false,
+        "washroom": true
+      },
+      "extra_features": [
+        "Heavy customer traffic",
+        "Main road facing",
+        "Ideal for electronics or mobile shop",
+        "Wide shutters with signage space"
+      ],
+      "images": [
+        "images/shop3/front.jpg",
+        "images/shop3/interior.jpg"
+      ],
+      "available": true
+    },
+    {
+      "id": 4,
+      "title": "Shop for Sale in Bahria Town Karachi",
+      "type": "Commercial Shop",
+      "price": 2500000,
+      "currency": "PKR",
+      "location": {
+        "city": "Karachi",
+        "area": "Bahria Town",
+        "address": "Shop #17, Dominion Mall, Precinct 19"
+      },
+      "features": {
+        "floor_level": "First Floor",
+        "area_sqft": 300,
+        "corner_shop": false,
+        "electricity_meter": "Shared",
+        "gas_connection": false,
+        "washroom": false
+      },
+      "extra_features": [
+        "Centrally air-conditioned mall",
+        "Near food court",
+        "Escalator access",
+        "Ideal for clothing or cosmetics"
+      ],
+      "images": [
+        "images/shop4/front.jpg",
+        "images/shop4/inside.jpg"
+      ],
+      "available": true
+    }
+  ]
+}

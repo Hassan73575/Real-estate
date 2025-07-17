@@ -1,0 +1,116 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "title": "Boundary-Walled Residential Plot in Bahria Town",
+      "type": "Residential Plot",
+      "price": 10500000,
+      "currency": "PKR",
+      "location": {
+        "city": "Karachi",
+        "area": "Bahria Town",
+        "address": "Plot #119, Precinct 11-B"
+      },
+      "features": {
+        "plot_size": "250 Sq Yards",
+        "category": "Residential",
+        "boundary_wall": true,
+        "corner_plot": "No",
+        "road_width_ft": "12meter",
+        "gated_community": true,
+        "possession_status": "Ready for possession"
+      },
+      "extra_features": [
+        "Boundary wall constructed",
+        "Main boulevard facing",
+        "Close to mosque and park",
+        "Secure and developed area"
+      ],
+      "available": true
+    },
+    {
+      "id": 2,
+      "title": "Commercial Plot with Boundary Wall in Scheme 33",
+      "type": "Commercial Plot",
+      "price": 28500000,
+      "currency": "PKR",
+      "location": {
+        "city": "Karachi",
+        "area": "Scheme 33",
+        "address": "Plot #46, Sector 18-A"
+      },
+      "features": {
+        "plot_size": "400 Sq Yards",
+        "category": "Commercial",
+        "boundary_wall": true,
+        "corner_plot": true,
+        "road_width_ft": "12meter",
+        "gated_community": false,
+        "possession_status": "Immediate"
+      },
+      "extra_features": [
+        "Boundary wall with gate installed",
+        "Main road visibility",
+        "Ideal for warehouse or showroom",
+        "Electricity & water connection available"
+      ],
+      "available": true
+    },
+    {
+      "id": 3,
+      "title": "Open Land for Farmhouse in Gadap Town",
+      "type": "Agricultural Land",
+      "price": 32000000,
+      "currency": "PKR",
+      "location": {
+        "city": "Karachi",
+        "area": "Gadap Town",
+        "address": "Survey #201, Deh Kharkharo"
+      },
+      "features": {
+        "plot_size": "1.5 Acres",
+        "category": "Agricultural",
+        "boundary_wall": false,
+        "corner_plot": false,
+        "road_width_ft": "12meter",
+        "gated_community": false,
+        "possession_status": "Available"
+      },
+      "extra_features": [
+        "Open and leveled land",
+        "Suitable for farmhouse or livestock",
+        "Underground water available",
+        "Wide access road"
+      ],
+      "available": true
+    },
+    {
+      "id": 4,
+      "title": "Open Residential Plot in DHA City Karachi",
+      "type": "Residential Plot",
+      "price": 11800000,
+      "currency": "PKR",
+      "location": {
+        "city": "Karachi",
+        "area": "DHA City",
+        "address": "Plot #71, Sector 6-C"
+      },
+      "features": {
+        "plot_size": "300 Sq Yards",
+        "category": "Residential",
+        "boundary_wall": false,
+        "corner_plot": true,
+        "road_width_ft": "12meter",
+        "gated_community": true,
+        "possession_status": "Allocated"
+      },
+      "extra_features": [
+        "Park-facing corner plot",
+        "No construction done yet",
+        "Ready for home design",
+        "Peaceful environment"
+      ],
+      "available": true
+    }
+  ]
+}
