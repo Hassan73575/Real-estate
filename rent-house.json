@@ -1,0 +1,37 @@
+{
+  "properties": [
+      {
+  "id": 3,
+  "title": "3-Bedroom Portion for Rent",
+  "type": "House",
+  "rent_per_month": 38000,
+  "currency": "PKR",
+  "location": {
+    "city": "Karachi",
+    "area": "Gulshan-e-Iqbal Block 13-D",
+    "address": "House #11, Street 8, Block 13-D, Gulshan-e-Iqbal"
+  },
+  "features": {
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_sqft": 950,
+    "parking": false,
+    "balcony": true,
+    "floor": "Ground Floor",
+    "furnished": false,
+    "electricity_meter": "Separate",
+    "gas_meter": "Shared"
+  },
+  "images": [
+    "images/rent1/front.jpg",
+    "images/rent1/bedroom.jpg",
+    "images/rent1/lounge.jpg"
+  ],
+  "available": true
+}
+
+    
+
+
+  ]
+}

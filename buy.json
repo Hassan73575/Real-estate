@@ -1,0 +1,111 @@
+{
+  "properties": [
+    
+    {
+      "id": 1,
+      "title": "Luxury 3-Bedroom Apartment",
+      "type": "Apartment",
+      "price": 15000000,
+      "currency": "PKR",
+      "location": {
+        "city": "Karachi",
+        "area": "DHA Phase 6",
+        "address": "Street 12, DHA Phase 6"
+      },
+      "features": {
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "area_sqft": 1800,
+        "parking": true,
+        "balcony": true,
+        "furnished": true
+      },
+      "images": [
+        "images/property1/front.jpg",
+        "images/property1/livingroom.jpg",
+        "images/property1/kitchen.jpg"
+      ],
+      "available": true
+    },
+    {
+      "id": 2,
+      "title": "5 Marla House for Sale",
+      "type": "House",
+      "price": 5950000,
+      "currency": "PKR",
+      "location": {
+        "city": "karachi",
+        "area": "Bahria Town",
+        "address": "Plot 25, Block B, Bahria Town"
+      },
+      "features": {
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "area_sqft": 1350,
+        "parking": true,
+        "balcony": false,
+        "furnished": true
+      },
+      "images": [
+        "images/property2/front.jpg",
+        "images/property2/bedroom.jpg"
+      ],
+      "available": false
+    },
+    {
+  "id": 2,
+  "title": "3-Bedroom Ground Floor House",
+  "type": "House",
+  "price": 6300000,
+  "currency": "PKR",
+  "location": {
+    "city": "Karachi",
+    "area": "Korangi 2 ½",
+    "address": "House #19, Street 4, Korangi 2 ½"
+  },
+  "features": {
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_sqft": 800,
+    "parking": true,
+    "balcony": false,
+    "furnished": false
+  },
+  "images": [
+    "images/property2/front.jpg",
+    "images/property2/livingroom.jpg",
+    "images/property2/kitchen.jpg"
+  ],
+  "available": true
+},
+
+  {
+  "id": 1,
+  "title": "Affordable 3-Bedroom House",
+  "type": "House",
+  "price": 5800000,
+  "currency": "PKR",
+  "location": {
+    "city": "Karachi",
+    "area": "New Karachi Sector 5-E",
+    "address": "House #47, Street 6, Sector 5-E, New Karachi"
+  },
+  "features": {
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_sqft": 720,
+    "parking": false,
+    "balcony": false,
+    "furnished": false
+  },
+  "images": [
+    "images/property1/front.jpg",
+    "images/property1/bedroom.jpg",
+    "images/property1/kitchen.jpg"
+  ],
+  "available": true
+}
+
+
+  ]
+}
