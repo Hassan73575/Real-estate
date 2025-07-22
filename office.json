@@ -1,0 +1,140 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "title": "Office for Sale - Floor 2 (Unit A)",
+      "type": "Office",
+      "available": true,
+      "price": 12500000,
+      "currency": "PKR",
+      "floor": 2,
+      "area_sqft": 1100,
+      "washrooms": 2,
+      "location": {
+        "city": "Karachi",
+        "area": "Clifton Block 5"
+      },
+      "meters": {
+        "electric": true,
+        "gas": true,
+        "water": true,
+        "details": [
+          "Electric Meter: Available",
+          "Gas Meter: Available",
+          "Water Meter: Available"
+        ]
+      },
+      "features": [
+        "Corner Unit",
+        "Lift Access",
+        "Furnished Interior",
+        "Dedicated Parking",
+        "Security Cameras Installed",
+        "Reception Area"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1581090700003-326ccb6df04e?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 2,
+      "title": "Office for Sale - Floor 2 (Unit B)",
+      "type": "Office",
+      "available": false,
+      "price": 11800000,
+      "currency": "PKR",
+      "floor": 2,
+      "area_sqft": 1000,
+      "washrooms": 1,
+      "location": {
+        "city": "Karachi",
+        "area": "Clifton Block 5"
+      },
+      "meters": {
+        "electric": true,
+        "gas": false,
+        "water": true,
+        "details": [
+          "Electric Meter: Available",
+          "Gas Meter: Not Available",
+          "Water Meter: Available"
+        ]
+      },
+      "features": [
+        "Furnished",
+        "Shared Reception",
+        "WiFi & Networking Ready",
+        "Backup Power System",
+        "Waiting Area",
+        "Emergency Exit"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 3,
+      "title": "Office for Sale - Floor 2 (Unit C)",
+      "type": "Office",
+      "available": true,
+      "price": 11000000,
+      "currency": "PKR",
+      "floor": 2,
+      "area_sqft": 950,
+      "washrooms": 1,
+      "location": {
+        "city": "Karachi",
+        "area": "Clifton Block 5"
+      },
+      "meters": {
+        "electric": true,
+        "gas": true,
+        "water": false,
+        "details": [
+          "Electric Meter: Available",
+          "Gas Meter: Available",
+          "Water Meter: Not Available"
+        ]
+      },
+      "features": [
+        "Central Air Conditioning",
+        "Spacious Work Area",
+        "Dedicated Parking",
+        "CCTV Surveillance",
+        "Meeting Room",
+        "Private Balcony"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1581093588401-62f35cdddb49?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 4,
+      "title": "Office for Sale - Floor 2 (Unit D)",
+      "type": "Office",
+      "available": true,
+      "price": 13000000,
+      "currency": "PKR",
+      "floor": 2,
+      "area_sqft": 1150,
+      "washrooms": 2,
+      "location": {
+        "city": "Karachi",
+        "area": "Clifton Block 5"
+      },
+      "meters": {
+        "electric": true,
+        "gas": true,
+        "water": true,
+        "details": [
+          "Electric Meter: Available",
+          "Gas Meter: Available",
+          "Water Meter: Available"
+        ]
+      },
+      "features": [
+        "Executive Setup",
+        "Private Washroom",
+        "Built-in Kitchenette",
+        "Reception Lobby",
+        "24/7 Security Staff",
+        "Smoke Detectors"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1573164713712-03790aa1c9f9?auto=format&fit=crop&w=800&q=80"
+    }
+  ]
+}

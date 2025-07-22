@@ -1,5 +1,5 @@
 async function linkwaladata() {
-    const res = await fetch("buy.json");
+    const res = await fetch("lowprice.json");
     const data = await res.json();
     for (let keys in data.properties) {
       document.getElementById("print").innerHTML += `
@@ -39,6 +39,10 @@ async function linkwaladata() {
                         <td>${data.properties[keys].location.city}, ${data.properties[keys].location.address}</td>
                     </tr>
                     <tr>
+                        <th>plot_size</th>
+                        <td>${data.properties[keys].features.plot_size}</td>
+                    </tr>
+                    <tr>
                         <th>Bedrooms</th>
                         <td>${data.properties[keys].features.bedrooms}</td>
                     </tr>
@@ -47,12 +51,8 @@ async function linkwaladata() {
                         <td>${data.properties[keys].features.bathrooms}</td>
                     </tr>
                     <tr>
-                        <th>balcony</th>
-                        <td>${data.properties[keys].features.balcony}</td>
-                    </tr>
-                    <tr>
-                        <th>furnished</th>
-                        <td>${data.properties[keys].features.furnished}</td>
+                        <th>extra_features</th>
+                        <td>${data.properties[keys].extra_features}</td>
                     </tr>
                     <tr>
                         <th>available</th>

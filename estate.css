@@ -180,11 +180,33 @@ nav ul li:hover a {
     background: linear-gradient(90deg, #43cea2 60%, #009688 100%);
     box-shadow: 0 4px 16px rgba(67,206,162,0.18);
 }
+select {
+  /* padding: 10px 15px; */
+  border: 2px solid #009688;
+  border-radius: 8px;
+  /* background-color: #f0f0f0; */
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+select:hover {
+  background: #009688;
+  color: #fff;
+  border-color: #009688;
+}
+
+select:focus {
+  outline: none;
+  border-color: #2e7d32;
+  box-shadow: 0 0 5px rgba(46, 125, 50, 0.5);
+}
 
 .card-img {
     width: 100%;
-    max-width: 130px;
-    height: 90px;
+    max-width: 170px;
+    height: 130px;
     object-fit: cover;
     border-radius: 12px;
     margin-bottom: 1rem;

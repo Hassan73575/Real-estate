@@ -1,0 +1,123 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "title": "Haunted House in Gulshan-e-Maymar",
+      "type": "House",
+      "price": 2500000,
+      "currency": "PKR",
+      "location": {
+        "city": "Karachi",
+        "area": "Gulshan-e-Maymar",
+        "address": "Street 7, Sector Y"
+      },
+      "features": {
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "plot_size": "200 Sq Yards",
+        "category": "Residential",
+        "boundary_wall": true,
+        "corner_plot": "No",
+        "road_width_ft": "30 ft",
+        "gated_community": false,
+        "possession_status": "Abandoned"
+      },
+      "extra_features": [
+        "Rumored haunted house",
+        "Dark basement",
+        "Surrounded by overgrown trees",
+        "No residents for 15 years"
+      ],
+      "available": true
+    },
+    {
+      "id": 2,
+      "title": "Demolished House in Garden East",
+      "type": "House",
+      "price": 3500000,
+      "currency": "PKR",
+      "location": {
+        "city": "Karachi",
+        "area": "Garden East",
+        "address": "Plot #44, Street 2"
+      },
+      "features": {
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "plot_size": "240 Sq Yards",
+        "category": "Residential",
+        "boundary_wall": false,
+        "corner_plot": "Yes",
+        "road_width_ft": "20 ft",
+        "gated_community": false,
+        "possession_status": "Demolished"
+      },
+      "extra_features": [
+        "Collapsed due to structural weakness",
+        "No construction allowed yet",
+        "Plot under evaluation by KDA"
+      ],
+      "available": true
+    },
+    {
+      "id": 3,
+      "title": "House Facing Graveyard in PECHS",
+      "type": "House",
+      "price": 4200000,
+      "currency": "PKR",
+      "location": {
+        "city": "Karachi",
+        "area": "PECHS Block 6",
+        "address": "House #B-98, near Society Graveyard"
+      },
+      "features": {
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "plot_size": "160 Sq Yards",
+        "category": "Residential",
+        "boundary_wall": true,
+        "corner_plot": "No",
+        "road_width_ft": "24 ft",
+        "gated_community": false,
+        "possession_status": "Ready for possession"
+      },
+      "extra_features": [
+        "Facing historical graveyard",
+        "Peaceful neighborhood",
+        "Mixed public opinion",
+        "Affordable pricing"
+      ],
+      "available": true
+    },
+    {
+      "id": 5,
+      "title": "Affordable house in High-Crime Area - Orangi Town",
+      "type": "Apartment",
+      "price": 2300000,
+      "currency": "PKR",
+      "area_sqft": 650,
+      "location": {
+        "city": "Karachi",
+        "area": "Orangi Town"
+      },
+      "features": {
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "plot_size": "160 Sq Yards",
+        "category": "Residential",
+        "boundary_wall": true,
+        "corner_plot": "No",
+        "road_width_ft": "24 ft",
+        "gated_community": false,
+        "possession_status": "Ready for possession"
+      },
+      "extra_features": [
+        "Mobile snatching reported near street 11",
+          "Power theft incident last month",
+          "Two burglary cases in past 3 months"
+      ],
+        "available": true
+      }
+    
+  ]
+}

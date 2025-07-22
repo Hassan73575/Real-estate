@@ -1,10 +1,11 @@
 async function linkwaladata() {
-    const res = await fetch("buy.json");
+    const res = await fetch("office.json");
     const data = await res.json();
     for (let keys in data.properties) {
       document.getElementById("print").innerHTML += `
         <div class="card">
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="card">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                 <img src="img/open-house-1163353_1920.jpg" class="d-block w-100" alt="...">
@@ -25,7 +26,7 @@ async function linkwaladata() {
                 <span class="visually-hidden">Next</span>
             </button>
             </div>
-
+                <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=400&q=80" alt="Buy House" class="card-img">
                 <i class="fas fa-home card-icon"></i>
                 <h2>${data.properties[keys].title}</h2>
                 <p>${data.properties[keys].type}</p>
@@ -36,28 +37,45 @@ async function linkwaladata() {
                     </tr>
                     <tr>
                         <th>Location</th>
-                        <td>${data.properties[keys].location.city}, ${data.properties[keys].location.address}</td>
+                        <td>${data.properties[keys].location.city}, ${data.properties[keys].location.area}</td>
                     </tr>
                     <tr>
-                        <th>Bedrooms</th>
-                        <td>${data.properties[keys].features.bedrooms}</td>
+                        <th>Floor</th>
+                        <td>${data.properties[keys].floor}</td>
                     </tr>
                     <tr>
-                        <th>Bathrooms</th>
-                        <td>${data.properties[keys].features.bathrooms}</td>
+                        <th>Electric meter</th>
+                        <td>${data.properties[keys].meters.electric}</td>
                     </tr>
                     <tr>
-                        <th>balcony</th>
-                        <td>${data.properties[keys].features.balcony}</td>
+                        <th>Gas meter</th>
+                        <td>${data.properties[keys].meters.gas}</td>
                     </tr>
                     <tr>
-                        <th>furnished</th>
-                        <td>${data.properties[keys].features.furnished}</td>
+                        <th>Water meter</th>
+                        <td>${data.properties[keys].meters.water}</td>
                     </tr>
                     <tr>
-                        <th>available</th>
+                        <th>Water meter</th>
+                        <td>${data.properties[keys].meters.water}</td>
+                    </tr>
+                    <tr>
+                        <th>Washroom</th>
+                        <td>${data.properties[keys].washrooms}</td>
+                    </tr>
+                    <tr>
+                        <th>Area sqft</th>
+                        <td>${data.properties[keys].area_sqft}</td>
+                    </tr>
+                    <tr>
+                        <th>Availabe</th>
                         <td>${data.properties[keys].available}</td>
                     </tr>
+                    <tr>
+                        <th>Extra Features</th>
+                        <td>${data.properties[keys].features}</td>
+                    </tr>
+                   
                 </table>
                 <a href="buyhouse.html" class="card-btn">Explore Buying</a>
             </div>
