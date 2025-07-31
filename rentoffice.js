@@ -1,5 +1,5 @@
 async function linkwaladata() {
-    const res = await fetch("plots.json");
+    const res = await fetch("rentoffice.json");
     const data = await res.json();
     for (let keys in data.properties) {
       document.getElementById("print").innerHTML += `
@@ -25,12 +25,13 @@ async function linkwaladata() {
                 <span class="visually-hidden">Next</span>
             </button>
             </div>
+
                 <i class="fas fa-home card-icon"></i>
                 <h2>${data.properties[keys].title}</h2>
                 <p>${data.properties[keys].type}</p>
                 <table class="table table-bordered table-striped table-hover table-responsive table-condensed">
                     <tr>
-                        <th>Price</th>
+                        <th>Rent Per month</th>
                         <td>${data.properties[keys].currency},${data.properties[keys].price}</td>
                     </tr>
                     <tr>
@@ -38,34 +39,37 @@ async function linkwaladata() {
                         <td>${data.properties[keys].location.city}, ${data.properties[keys].location.address}</td>
                     </tr>
                     <tr>
-                        <th>Plot size</th>
-                        <td>${data.properties[keys].features.plot_size}</td>
+                        <th>Size</th>
+                        <td>${data.properties[keys].size}</td>
                     </tr>
                     <tr>
-                        <th>Corner</th>
-                        <td>${data.properties[keys].features.corner_plot}</td>
+                        <th>Floor</th>
+                        <td>${data.properties[keys].floor}</td>
                     </tr>
                     <tr>
-                        <th>Road width</th>
-                        <td>${data.properties[keys].features.road_width_ft}</td>
+                        <th>Electricity</th>
+                        <td>${data.properties[keys].features.electricity}</td>
                     </tr>
                     <tr>
-                    <th>Category</th>
-                    <td>${data.properties[keys].features.category}</td>
+                        <th>Water</th>
+                        <td>${data.properties[keys].features.water}</td>
                     </tr>
                     <tr>
-                    <th>Gated community</th>
-                    <td>${data.properties[keys].features.gated_community}</td>
-                    <tr>
-                        <th>Possession-status</th>
-                        <td>${data.properties[keys].features.possession_status}</td>
-                    </tr>
+                        <th>Parking</th>
+                        <td>${data.properties[keys].features.parking}</td>
                     </tr>
                     <tr>
-                        <th>Extra Features</th>
-                        <td>${data.properties[keys].extra_features}</td>
+                        <th>Air conditioner</th>
+                        <td>${data.properties[keys].features.air_conditioning}</td>
                     </tr>
-                   
+                    <tr>
+                        <th>Furnished</th>
+                        <td>${data.properties[keys].furnished}</td>
+                    </tr>
+                    <tr>
+                        <th>available</th>
+                        <td>${data.properties[keys].features.available}</td>
+                    </tr>
                 </table>
                 <a href="buyhouse.html" class="card-btn">Explore Buying</a>
             </div>

@@ -1,0 +1,88 @@
+{
+  "properties": [
+    {
+    "id": 1,
+    "title": "Corner Shop for Rent",
+    "type": "Shop",
+    "price": 45000,
+    "currency": "PKR",
+    "location": {
+      "city": "Karachi",
+      "area": "Gulshan-e-Iqbal",
+      "address": "Main Road, Block 13D"
+    },
+    "size": "250 sq ft",
+    "features": {
+      "electricity": "yes",
+      "water": "yes",
+      "parking": "yes",
+      "furnished": "yes",
+      "available": "yes",
+      "attached_bathroom": "no"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Basement Shop for Rent",
+    "type": "Shop",
+    "price": 30000,
+    "currency": "PKR",
+    "location": {
+      "city": "Karachi",
+      "area": "DHA Phase 5",
+      "address": "Commercial Avenue"
+    },
+    "size": "180 sq ft",
+    "features": {
+      "electricity": "yes",
+      "water": "yes",
+      "parking": "no",
+      "furnished": "no",
+      "available": "yes",
+      "attached_bathroom": "no"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Ground Floor Shop on Main Road",
+    "type": "Shop",
+    "price": 70000,
+    "currency": "PKR",
+    "location": {
+      "city": "Karachi",
+      "area": "Bahadurabad",
+      "address": "Main Bahadurabad Road"
+    },
+    "size": "300 sq ft",
+    "features": {
+      "electricity": "yes",
+      "water": "yes",
+      "parking": "yes",
+      "furnished": "yes",
+      "available": "yes",
+      "attached_bathroom": "yes"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Small Shop for Rent",
+    "type": "Shop",
+    "price": 20000,
+    "currency": "PKR",
+    "location": {
+      "city": "Karachi",
+      "area": "Nazimabad",
+      "address": "Block 3, Market Area"
+    },
+    "size": "120 sq ft",
+    "features": {
+      "electricity": "yes",
+      "water": "no",
+      "parking": "no",
+      "furnished": "no",
+      "available": "no",
+      "attached_bathroom": "no"
+    }
+  }
+  ]
+}

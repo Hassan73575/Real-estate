@@ -2,18 +2,18 @@ async function linkwaladata() {
     const res = await fetch("buy.json");
     const data = await res.json();
     for (let keys in data.properties) {
-      document.getElementById("print").innerHTML += `
+        document.getElementById("print").innerHTML += `
         <div class="card">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="img/open-house-1163353_1920.jpg" class="d-block w-100" alt="...">
+                <img src="img/open-house-1163353_1920.jpg" class="d-block w-100" id="carousel-image" alt="...">
                 </div>
                 <div class="carousel-item">
-                <img src="" class="d-block w-100" alt="...">
+                <img src="img/interior-2685521_1920.jpg" class="d-block w-100" id="carousel-image" alt="...">
                 </div>
                 <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="img/house-4101306_1920.jpg" class="d-block w-100" id="carousel-image" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

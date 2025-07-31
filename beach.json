@@ -1,0 +1,132 @@
+{
+  "properties": [
+    {
+    "id": 1,
+    "title": "Luxury Beach Hut at Hawksbay",
+    "type": "Beach Hut",
+    "price": 12000,
+    "currency": "PKR",
+    "location": {
+      "city": "Karachi",
+      "area": "Hawksbay",
+      "address": "Plot #45, Sector B, Hawksbay Beach"
+    },
+    "features": {
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqft": 1000,
+      "parking": true,
+      "balcony": true,
+      "furnished": true
+    },
+    "images": [
+      "images/huts/hawksbay1/front.jpg",
+      "images/huts/hawksbay1/living.jpg",
+      "images/huts/hawksbay1/beachview.jpg"
+    ],
+    "available": true
+  },
+   {
+    "id": 2,
+    "title": "Private Beachfront Hut - French Beach",
+    "type": "Beach Hut",
+    "price": 18000,
+    "currency": "PKR",
+    "location": {
+      "city": "Karachi",
+      "area": "French Beach",
+      "address": "Hut #23, French Beach Road"
+    },
+    "features": {
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqft": 1400,
+      "parking": true,
+      "balcony": false,
+      "furnished": true
+    },
+    "images": [
+      "images/huts/frenchbeach1/front.jpg",
+      "images/huts/frenchbeach1/lounge.jpg",
+      "images/huts/frenchbeach1/view.jpg"
+    ],
+    "available": false
+  },
+   {
+    "id": 3,
+    "title": "Affordable Sandspit Beach Hut",
+    "type": "Beach Hut",
+    "price": 8500,
+    "currency": "PKR",
+    "location": {
+      "city": "Karachi",
+      "area": "Sandspit",
+      "address": "Hut No. 7, Main Sandspit Road"
+    },
+    "features": {
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area_sqft": 800,
+      "parking": false,
+      "balcony": false,
+      "furnished": false
+    },
+    "images": [
+      "images/huts/sandspit1/front.jpg",
+      "images/huts/sandspit1/inside.jpg"
+    ],
+    "available": true
+  },
+     {
+    "id": 4,
+    "title": "Premium Hut with Private Pool - Turtle Beach",
+    "type": "Beach Hut",
+    "price": 20000,
+    "currency": "PKR",
+    "location": {
+      "city": "Karachi",
+      "area": "Turtle Beach",
+      "address": "Hut #10, Turtle Beach Road"
+    },
+    "features": {
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area_sqft": 1600,
+      "parking": true,
+      "balcony": true,
+      "furnished": true
+    },
+    "images": [
+      "images/huts/turtlebeach1/front.jpg",
+      "images/huts/turtlebeach1/pool.jpg",
+      "images/huts/turtlebeach1/lounge.jpg"
+    ],
+    "available": true
+  },
+  {
+    "id": 5,
+    "title": "Budget Family Hut - Paradise Point",
+    "type": "Beach Hut",
+    "price": 7000,
+    "currency": "PKR",
+    "location": {
+      "city": "Karachi",
+      "area": "Paradise Point",
+      "address": "Plot #16, Paradise Point, Karachi"
+    },
+    "features": {
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "area_sqft": 900,
+      "parking": false,
+      "balcony": false,
+      "furnished": false
+    },
+    "images": [
+      "images/huts/paradisepoint1/front.jpg",
+      "images/huts/paradisepoint1/inside.jpg"
+    ],
+    "available": true
+  }
+  ]
+}

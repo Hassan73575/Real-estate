@@ -1,0 +1,98 @@
+{
+    "properties":[   
+  {
+    "id": 1,
+    "title": "Furnished Office for Rent",
+    "type": "Office",
+    "price": 85000,
+    "currency": "PKR",
+    "location": {
+      "city": "Karachi",
+      "area": "Shahrah-e-Faisal",
+      "address": "Near Nursery Stop"
+    },
+    "size": "600 sq ft",
+    "floor": "2nd Floor",
+    "furnished": "yes",
+    "features": {
+      "electricity": "yes",
+      "water": "yes",
+      "parking": "yes",
+      "attached_bathroom": "yes",
+      "available": "yes",
+      "air_conditioning": "yes"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Executive Office Space",
+    "type": "Office",
+    "price": 120000,
+    "currency": "PKR",
+    "location": {
+      "city": "Karachi",
+      "area": "Clifton Block 7",
+      "address": "Near Boat Basin"
+    },
+    "size": "950 sq ft",
+    "floor": "3rd Floor",
+    "furnished": "yes",
+    "features": {
+      "electricity": "yes",
+      "water": "yes",
+      "parking": "yes",
+      "available": "yes",
+      "attached_bathroom": "yes",
+      "air_conditioning": "yes"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Small Furnished Office",
+    "type": "Office",
+    "price": 50000,
+    "currency": "PKR",
+    "location": {
+      "city": "Karachi",
+      "area": "Gulshan-e-Iqbal",
+      "address": "Block 6, Main University Road"
+    },
+    "size": "350 sq ft",
+    "floor": "1st Floor",
+    "furnished": "yes",
+    "features": {
+      "electricity": "yes",
+      "water": "yes",
+      "parking": "no",
+      "available": "no",
+      "attached_bathroom": "no",
+      "air_conditioning": "yes"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Shared Office Space",
+    "type": "Office",
+    "price": 30000,
+    "currency": "PKR",
+    "location": {
+      "city": "Karachi",
+      "area": "PECHS Block 2",
+      "address": "Near Tariq Road"
+    },
+    "size": "400 sq ft",
+    "floor": "Ground Floor",
+    "furnished": "yes",
+    "features": {
+      "electricity": "yes",
+      "water": "yes",
+      "parking": "yes",
+      "available": "yes",
+      "attached_bathroom": "no",
+      "air_conditioning": "yes"
+    }
+  }
+
+
+    ]
+}
