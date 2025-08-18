@@ -1,0 +1,148 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "title": "Shared House - Room A (2 Bed)",
+      "type": "Shared Room",
+      "available": true,
+      "rent_per_month": 7000,
+      "currency": "PKR",
+      "floor": 1,
+      "room_size_sqft": 180,
+      "beds": 2,
+      "washroom_type": "Shared",
+      "location": {
+      "city": "Karachi",
+      "area": "Nazimabad"
+    },
+      "utilities": {
+        "electric": true,
+        "gas": true,
+        "water": true,
+        "internet": false,
+        "details": [
+          "Electricity Bill Separate",
+          "Gas Shared",
+          "Water Supply Available",
+          "No WiFi"
+        ]
+      },
+      "features": [
+        "Basic Furniture",
+        "Shared Kitchen",
+        "Fan Only (No AC)",
+        "Nearby Biryani Hotel",
+        "Walking Distance to Bus Stop"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 2,
+      "title": "Shared House - Room B (3 Bed)",
+      "type": "Shared Room",
+      "available": true,
+      "rent_per_month": 6000,
+      "currency": "PKR",
+      "floor": 1,
+      "room_size_sqft": 200,
+      "beds": 3,
+      "washroom_type": "Shared",
+      "location": {
+      "city": "Karachi",
+      "area": "Gulshan-e-Iqbal"
+    },
+      "utilities": {
+        "electric": true,
+        "gas": false,
+        "water": true,
+        "internet": false,
+        "details": [
+          "Electricity Bill Split Among Tenants",
+          "Gas Not Available",
+          "Water Tank Supply",
+          "No WiFi"
+        ]
+      },
+      "features": [
+        "Iron Bed Frames",
+        "Shared Washroom",
+        "Small Kitchen Access",
+        "Near Grocery Shop",
+        "Public Transport Nearby"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 3,
+      "title": "Shared House - Room C (Single Bed)",
+      "type": "Private Room",
+      "available": false,
+      "rent_per_month": 8500,
+      "currency": "PKR",
+      "floor": 2,
+      "room_size_sqft": 150,
+      "beds": 1,
+      "washroom_type": "Shared",
+      "location": {
+      "city": "Karachi",
+      "area": "Korangi"
+    },
+      "utilities": {
+        "electric": true,
+        "gas": true,
+        "water": true,
+        "internet": false,
+        "details": [
+          "Electricity Bill Separate",
+          "Gas Shared",
+          "Water Available",
+          "No WiFi"
+        ]
+      },
+      "features": [
+        "Unfurnished (Bring Own Bed)",
+        "Shared Kitchen",
+        "Fan Only",
+        "Basic Security Lock",
+        "Affordable Rent"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1598928506310-9ff6eafbd35e?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 4,
+      "title": "Shared House - Room D (2 Bed Small)",
+      "type": "Shared Room",
+      "available": true,
+      "rent_per_month": 6500,
+      "currency": "PKR",
+      "floor": 2,
+      "room_size_sqft": 160,
+      "beds": 2,
+      "washroom_type": "Shared",
+      "location": {
+      "city": "Karachi",
+      "area": "Saddar"
+    },
+      "utilities": {
+        "electric": true,
+        "gas": true,
+        "water": true,
+        "internet": false,
+        "details": [
+          "Electricity Bill Separate",
+          "Gas Available",
+          "Water Tanker Supply",
+          "No WiFi"
+        ]
+      },
+      "features": [
+        "Simple Setup",
+        "Shared Washroom",
+        "Kitchen Outside Room",
+        "Walking Distance to Market",
+        "Budget Friendly"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=800&q=80"
+    }
+  ]
+}
