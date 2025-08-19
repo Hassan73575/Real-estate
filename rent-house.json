@@ -9,7 +9,8 @@
       "location": {
         "city": "Karachi",
         "area": "New Karachi Sector 11-F",
-        "address": "House #B-22, Sector 11-F, New Karachi"
+        "address": "House #B-22, Sector 11-F, New Karachi",
+        "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.456319727348!2d67.0645!3d24.8850!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb3398a6f7e8c2f%3A0x7df3a5b6a3b8a2a!2sSector%2011-F%2C%20New%20Karachi%2C%20Karachi!5e0!3m2!1sen!2s!4v1691688500000' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
       },
       "features": {
         "bedrooms": 2,
@@ -38,7 +39,8 @@
       "location": {
         "city": "Karachi",
         "area": "Korangi 3½",
-        "address": "Flat #A-07, Korangi Sector 3½"
+        "address": "Flat #A-07, Korangi Sector 3½",
+        "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.739522917001!2d67.1229!3d24.8306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33a7a1f6b1b7b%3A0x2fefb36b8b6c21c1!2sKorangi%203%C2%BD%2C%20Karachi!5e0!3m2!1sen!2s!4v1691687000000' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
       },
       "features": {
         "bedrooms": 1,
@@ -67,7 +69,8 @@
       "location": {
         "city": "Karachi",
         "area": "Orangi Town Sector 9",
-        "address": "House #R-99, Street 3, Sector 9"
+        "address": "House #R-99, Street 3, Sector 9",
+        "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.849219210635!2d66.9752!3d24.9206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f2e9e4e2a6b%3A0xa3e8b93c19a42a5!2sSector%209%20Orangi%20Town%2C%20Karachi!5e0!3m2!1sen!2s!4v1691688600000' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
       },
       "features": {
         "bedrooms": 2,
@@ -96,7 +99,9 @@
       "location": {
         "city": "Karachi",
         "area": "Liaquatabad C Area",
-        "address": "House #C-110, Near Masjid Noor, Liaquatabad"
+        "address": "House #C-110, Near Masjid Noor, Liaquatabad",
+        "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.283118169041!2d67.0410!3d24.9493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ec71d2a8a7b%3A0x3f9f3c5d8a2f1c9!2sLiaquatabad%20C%20Area%2C%20Karachi!5e0!3m2!1sen!2s!4v1691688700000' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
       },
       "features": {
         "bedrooms": 1,

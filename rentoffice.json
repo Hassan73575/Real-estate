@@ -9,7 +9,9 @@
     "location": {
       "city": "Karachi",
       "area": "Shahrah-e-Faisal",
-      "address": "Near Nursery Stop"
+      "address": "Near Nursery Stop",
+      "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.265979809299!2d67.0426!3d24.8639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e9b6b7d77d7%3A0xd635cbbf0a4a4c9f!2sNursery%20Bus%20Stop%2C%20Shahrah-e-Faisal%2C%20Karachi!5e0!3m2!1sen!2s!4v1691695000000' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
     },
     "size": "600 sq ft",
     "floor": "2nd Floor",
@@ -32,7 +34,9 @@
     "location": {
       "city": "Karachi",
       "area": "Clifton Block 7",
-      "address": "Near Boat Basin"
+      "address": "Near Boat Basin",
+      "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.068743835684!2d67.0254!3d24.8714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33eeb5a1c0b7d%3A0xd8d9c07c0c77a55!2sBoat%20Basin%2C%20Clifton%20Block%207%2C%20Karachi!5e0!3m2!1sen!2s!4v1691696000000' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
     },
     "size": "950 sq ft",
     "floor": "3rd Floor",
@@ -55,7 +59,9 @@
     "location": {
       "city": "Karachi",
       "area": "Gulshan-e-Iqbal",
-      "address": "Block 6, Main University Road"
+      "address": "Block 6, Main University Road",
+      "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.3863442100845!2d67.0847!3d24.9135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e7e7771a5a3%3A0x6f2d3c89f7c02d12!2sBlock%206%20Gulshan-e-Iqbal%2C%20University%20Rd%2C%20Karachi!5e0!3m2!1sen!2s!4v1691696100000' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
     },
     "size": "350 sq ft",
     "floor": "1st Floor",
@@ -78,7 +84,9 @@
     "location": {
       "city": "Karachi",
       "area": "PECHS Block 2",
-      "address": "Near Tariq Road"
+      "address": "Near Tariq Road",
+      "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.447773123603!2d67.0429!3d24.8615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e6d3df71131%3A0x4dced0fba77dcb2b!2sTariq%20Rd%2C%20PECHS%20Block%202%2C%20Karachi!5e0!3m2!1sen!2s!4v1691696200000' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
     },
     "size": "400 sq ft",
     "floor": "Ground Floor",

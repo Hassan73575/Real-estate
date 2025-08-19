@@ -10,7 +10,9 @@
       "location": {
         "city": "Karachi",
         "area": "DHA Phase 6",
-        "address": "Street 12, DHA Phase 6"
+        "address": "Street 12, DHA Phase 6",
+        "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.0307719274376!2d67.0645!3d24.8670!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e69d59d5ab3%3A0x7d9e67b7351826a!2sStreet%2012%2C%20DHA%20Phase%206%20Karachi!5e0!3m2!1sen!2s!4v1691698000000' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
       },
       "features": {
         "bedrooms": 3,
@@ -36,7 +38,9 @@
       "location": {
         "city": "karachi",
         "area": "Bahria Town",
-        "address": "Plot 25, Block B, Bahria Town"
+        "address": "Plot 25, Block B, Bahria Town",
+        "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3627.278323786326!2d67.3382!3d25.0288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb34121a54a8f41%3A0x3f81cf5cf5b3e68c!2sBlock%20B%2C%20Bahria%20Town%20Karachi!5e0!3m2!1sen!2s!4v1691698100000' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
       },
       "features": {
         "bedrooms": 3,
@@ -61,7 +65,8 @@
   "location": {
     "city": "Karachi",
     "area": "Korangi 2 ½",
-    "address": "House #19, Street 4, Korangi 2 ½"
+    "address": "House #19, Street 4, Korangi 2 ½",
+    "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.4817480144547!2d67.0845!3d24.8189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33a6a1afc8d05%3A0xd9a53cf3a72e1b6a!2sKorangi%202%201%2F2%20Karachi!5e0!3m2!1sen!2s!4v1691698200000' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
   },
   "features": {
     "bedrooms": 3,
@@ -88,7 +93,9 @@
   "location": {
     "city": "Karachi",
     "area": "New Karachi Sector 5-E",
-    "address": "House #47, Street 6, Sector 5-E, New Karachi"
+    "address": "House #47, Street 6, Sector 5-E, New Karachi",
+    "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.1976626552387!2d67.0565!3d24.8278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb339fc9b3d830f%3A0x62dce49963cf0c77!2sSector%205%20E%20New%20Karachi%2C%20Karachi!5e0!3m2!1sen!2s!4v1691698300000' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
   },
   "features": {
     "bedrooms": 3,

@@ -9,7 +9,9 @@
     "location": {
       "city": "Karachi",
       "area": "Hawksbay",
-      "address": "Plot #45, Sector B, Hawksbay Beach"
+      "address": "Plot #45, Sector B, Hawksbay Beach",
+      "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.0382406838714!2d66.7747!3d24.8606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33a3e52f7a5b1%3A0x9f1f8e6e2c87fbb7!2sHawksbay%20Beach%2C%20Karachi!5e0!3m2!1sen!2s!4v1691690000000' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
     },
     "features": {
       "bedrooms": 2,
@@ -35,7 +37,8 @@
     "location": {
       "city": "Karachi",
       "area": "French Beach",
-      "address": "Hut #23, French Beach Road"
+      "address": "Hut #23, French Beach Road",
+      "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.450219948311!2d66.6897!3d24.8821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb32f16f7f4a3a5%3A0x3a8e43c64b6e11f0!2sFrench%20Beach%20Karachi!5e0!3m2!1sen!2s!4v1691691000000' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
     },
     "features": {
       "bedrooms": 3,
@@ -61,7 +64,9 @@
     "location": {
       "city": "Karachi",
       "area": "Sandspit",
-      "address": "Hut No. 7, Main Sandspit Road"
+      "address": "Hut No. 7, Main Sandspit Road",
+      "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.0853082372025!2d66.7479!3d24.8588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33a11f8c59b6b%3A0x5baf3e4c8d71a1c5!2sSandspit%20Beach!5e0!3m2!1sen!2s!4v1691692000000' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
     },
     "features": {
       "bedrooms": 1,
@@ -86,7 +91,9 @@
     "location": {
       "city": "Karachi",
       "area": "Turtle Beach",
-      "address": "Hut #10, Turtle Beach Road"
+      "address": "Hut #10, Turtle Beach Road",
+      "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.8282219360257!2d66.7229!3d24.8685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb32f0fa41b9a77%3A0x7a0c75c54e8b6d07!2sTurtle%20Beach%20Karachi!5e0!3m2!1sen!2s!4v1691693000000' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
     },
     "features": {
       "bedrooms": 4,
@@ -112,7 +119,9 @@
     "location": {
       "city": "Karachi",
       "area": "Paradise Point",
-      "address": "Plot #16, Paradise Point, Karachi"
+      "address": "Plot #16, Paradise Point, Karachi",
+      "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.919045470431!2d66.6869!3d24.8650!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb32f0c3b8b2f6f%3A0x6a8f1f5fdf9a3f9e!2sParadise%20Point%2C%20Karachi!5e0!3m2!1sen!2s!4v1691694000000' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
     },
     "features": {
       "bedrooms": 2,

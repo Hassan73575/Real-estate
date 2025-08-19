@@ -9,7 +9,9 @@
       "location": {
         "city": "Karachi",
         "area": "Tariq Road",
-        "address": "Shop #G-12, Al-Rehman Mall, Tariq Road"
+        "address": "Shop #G-12, Al-Rehman Mall, Tariq Road",
+        "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.4088582624777!2d67.0656!3d24.8545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e97d2525ed5%3A0x1e68f3a4e07c5d1d!2sAl-Rehman%20Mall%2C%20Tariq%20Rd%2C%20PECHS%20Karachi!5e0!3m2!1sen!2s!4v1691697500000' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
       },
       "features": {
         "floor_level": "Ground",
@@ -40,7 +42,9 @@
       "location": {
         "city": "Karachi",
         "area": "Clifton Block 7",
-        "address": "Shop #14, Emerald Plaza, Block 7"
+        "address": "Shop #14, Emerald Plaza, Block 7",
+        "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.1176584682045!2d67.0369!3d24.8639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33df4a4a1a9f1%3A0xf9a98c5c2369d04f!2sEmerald%20Plaza%2C%20Block%207%20Clifton%2C%20Karachi!5e0!3m2!1sen!2s!4v1691697600000' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
       },
       "features": {
         "floor_level": "Lower Ground",
@@ -71,7 +75,9 @@
       "location": {
         "city": "Karachi",
         "area": "Saddar",
-        "address": "Shop #2A, Mobile Market, Saddar"
+        "address": "Shop #2A, Mobile Market, Saddar",
+        "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.529047454895!2d67.0106!3d24.8505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33fb2ab832e1d%3A0xb7e2595c9d32b3f0!2sMobile%20Market%20Saddar%2C%20Karachi!5e0!3m2!1sen!2s!4v1691697700000' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
       },
       "features": {
         "floor_level": "Ground",
@@ -102,7 +108,8 @@
       "location": {
         "city": "Karachi",
         "area": "Bahria Town",
-        "address": "Shop #17, Dominion Mall, Precinct 19"
+        "address": "Shop #17, Dominion Mall, Precinct 19",
+        "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3627.235347894384!2d67.3408!3d25.0301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb341234feec4c5%3A0x7d24c44e9b83f3b2!2sDominion%20Mall%2C%20Precinct%2019%2C%20Bahria%20Town%2C%20Karachi!5e0!3m2!1sen!2s!4v1691697800000' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
       },
       "features": {
         "floor_level": "First Floor",
