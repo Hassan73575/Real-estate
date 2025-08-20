@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Installment Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Important for mobile -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estate.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+     <nav>
+        <a href="index.html" class="logo">
+            <i class="fas fa-home"></i>
+            Nestscope
+        </a>
+       <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shared.html">Shared-house</a></li>
+            <li><a href="buyhouse.html">Buy</a></li>
+            <select onchange="location = this.value;">
+                <option value="buyhouse.html">House</option>
+                <option value="Plots.html">Plots/Lands</option>
+                <option value="lowprice.html">lowprice</option>
+                <option value="luxury.html">highprice</option>
+                <option value="luxury.html">luxury</option>
+                <option value="shops.html">Shops</option>
+                <option value="office.html">Offices</option>
+            </select>
+            <li><a href="rent.html">Rent</a></li>
+            <select onchange="location = this.value;">
+                <option value="buyhouse.html">House</option>
+                <option value="shops.html">Shops</option>
+                <option value="office.html">Offices</option>
+                <option value="beach.html">Beach Huts</option>
+            </select>
+        </ul>
+    </nav>
+    
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-8 col-md-10">
+      <div class="calculator-card">
+
+        <div class="card-header">
+          <h2>📊 Real Estate Installment Calculator</h2>
+        </div>
+
+        <div class="card-body">
+
+          <!-- Total Amount -->
+          <div class="mb-4">
+            <label class="form-label">Total Amount (PKR)</label>
+            <input type="number" id="amount" class="form-control" placeholder="Enter Amount">
+          </div>
+
+          <!-- Months -->
+          <div class="mb-4">
+            <label class="form-label">Number of Months</label>
+            <input type="number" id="months" class="form-control" placeholder="Enter Months">
+          </div>
+
+          <button class="btn btn-primary w-100" onclick="calculateInstallment()">Calculate Installments</button>
+
+          <!-- Result -->
+          <div id="result" class="d-none">
+            <h4>💰 Payment Plan</h4>
+            <p class="result-text"><strong>Total Amount (with 20% extra):</strong> <span id="totalAmount"></span> PKR</p>
+            <p class="result-text"><strong>Months:</strong> <span id="totalMonths"></span></p>
+            <p class="result-text"><strong>Per Month Installment:</strong> <span id="perMonth"></span> PKR</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="footer-pro">
+        <div class="footer-content-pro">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Real Estate Portal is your trusted partner in finding the perfect property. We provide comprehensive real estate solutions across Pakistan.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="buyhouse.html">Buy Property</a></li>
+                    <li><a href="sell.html">Sell Property</a></li>
+                    <li><a href="rent.html">Rent Property</a></li>
+                    <li><a href="luxury.html">Luxury Homes</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Real Estate Ave, Karachi</li>
+                    <li><i class="fas fa-phone"></i> +92 300 1234567</li>
+                    <li><i class="fas fa-envelope"></i> info@realestate.com</li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Real Estate Portal. All rights reserved.</p>
+        </div>
+    </footer>
+<script>
+function calculateInstallment(){
+  let amount = parseFloat(document.getElementById("amount").value);
+  let months = parseInt(document.getElementById("months").value);
+
+  if(!amount || !months){
+    alert("Please enter both amount and months");
+    return;
+  }
+
+  // 20% extra for installments
+  let finalAmount = amount * 1.1;
+  let perMonth = finalAmount / months;
+
+  document.getElementById("totalAmount").innerText = finalAmount.toLocaleString();
+  document.getElementById("totalMonths").innerText = months;
+  document.getElementById("perMonth").innerText = perMonth.toFixed(2).toLocaleString();
+
+  document.getElementById("result").classList.remove("d-none");
+}
+</script>
+
+</body>
+</html>
