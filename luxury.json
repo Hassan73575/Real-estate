@@ -9,7 +9,9 @@
       "location": {
         "city": "Karachi",
         "area": "DHA Phase 6",
-        "address": "Plot 15-C, Street 9, DHA Phase 6"
+        "address": "Plot 15-C, Street 9, DHA Phase 6",
+          "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.297573088163!2d67.0596!3d24.9992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33eefd3b1e2f7%3A0xa59d7708d44a1d6f!2sDHA%20Phase%206%2C%20Karachi!5e0!3m2!1sen!2s!4v1691801000001' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
       },
       "features": {
         "bedrooms": 5,
@@ -46,7 +48,9 @@
       "location": {
         "city": "Karachi",
         "area": "Clifton Block 5",
-        "address": "Bungalow #22, Khayaban-e-Iqbal, Clifton Block 5"
+        "address": "Bungalow #22, Khayaban-e-Iqbal, Clifton Block 5",
+          "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.1816761577453!2d67.0321!3d24.9942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33eede9c8a8db%3A0xe02f02a2c3bfc12b!2sClifton%20Block%205%2C%20Karachi!5e0!3m2!1sen!2s!4v1691801000002' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
       },
       "features": {
         "bedrooms": 4,
@@ -85,7 +89,9 @@
       "location": {
         "city": "Karachi",
         "area": "Bahria Town",
-        "address": "Villa #48, Precinct 1, Bahria Town Karachi"
+        "address": "Villa #48, Precinct 1, Bahria Town Karachi",
+          "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.95789012291!2d67.3320!3d25.0301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb3413b3e3b5d0d%3A0xe46e31f1e6c5f84c!2sBahria%20Town%20Karachi%20Precinct%201!5e0!3m2!1sen!2s!4v1691801000003' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
       },
       "features": {
         "bedrooms": 4,
@@ -124,7 +130,9 @@
       "location": {
         "city": "Karachi",
         "area": "PECHS Block 2",
-        "address": "House #109, PECHS Block 2, Shahrah-e-Faisal"
+        "address": "House #109, PECHS Block 2, Shahrah-e-Faisal",
+          "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.719584430318!2d67.0681!3d24.8672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ec53aef3d1d%3A0x1a1f0c2f8df8c51a!2sPECHS%20Block%202%2C%20Karachi!5e0!3m2!1sen!2s!4v1691801000004' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
       },
       "features": {
         "bedrooms": 4,

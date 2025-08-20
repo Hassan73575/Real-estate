@@ -9,7 +9,9 @@
       "location": {
         "city": "Karachi",
         "area": "Gulshan-e-Maymar",
-        "address": "Street 7, Sector Y"
+        "address": "Street 7, Sector Y",
+        "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.924067134823!2d67.1106!3d25.0153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33c81f2a0d5b7%3A0x53b24e31ad1c87a9!2sGulshan-e-Maymar%20Sector%20Y%2C%20Karachi!5e0!3m2!1sen!2s!4v1691800000001' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
       },
       "features": {
         "bedrooms": 4,
@@ -39,7 +41,9 @@
       "location": {
         "city": "Karachi",
         "area": "Garden East",
-        "address": "Plot #44, Street 2"
+        "address": "Plot #44, Street 2",
+        "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.0643947994946!2d67.0306!3d24.8675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33df81eacafcf%3A0x29af5a80bd048393!2sGarden%20East%2C%20Karachi!5e0!3m2!1sen!2s!4v1691800000002' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
       },
       "features": {
         "bedrooms": 5,
@@ -68,7 +72,9 @@
       "location": {
         "city": "Karachi",
         "area": "PECHS Block 6",
-        "address": "House #B-98, near Society Graveyard"
+        "address": "House #B-98, near Society Graveyard",
+        "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.137913566839!2d67.0648!3d24.8612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e8d4e5c25e3%3A0x89e00a2b5c7f59ef!2sPECHS%20Block%206%20Karachi!5e0!3m2!1sen!2s!4v1691800000003' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
       },
       "features": {
         "bedrooms": 3,
@@ -98,7 +104,9 @@
       "area_sqft": 650,
       "location": {
         "city": "Karachi",
-        "area": "Orangi Town"
+        "area": "Orangi Town",
+        "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.258734902989!2d66.9621!3d24.9428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33a3c8760fb3d%3A0x1a71c5b9d8edc3d1!2sOrangi%20Town%2C%20Karachi!5e0!3m2!1sen!2s!4v1691800000004' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
       },
       "features": {
         "bedrooms": 3,

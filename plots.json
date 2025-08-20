@@ -9,7 +9,9 @@
       "location": {
         "city": "Karachi",
         "area": "Bahria Town",
-        "address": "Plot #119, Precinct 11-B"
+        "address": "Plot #119, Precinct 11-B",
+          "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.9587229323837!2d67.3310!3d25.0304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb34121b1a0c3f1%3A0xb1a3a77b0f880e7a!2sBahria%20Town%20Karachi!5e0!3m2!1sen!2s!4v1691800000101' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
       },
       "features": {
         "plot_size": "250 Sq Yards",
@@ -37,7 +39,9 @@
       "location": {
         "city": "Karachi",
         "area": "Scheme 33",
-        "address": "Plot #46, Sector 18-A"
+        "address": "Plot #46, Sector 18-A",
+          "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.50999994903!2d67.1278!3d25.0471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ddfbc8f6efb%3A0x1b1d4a7a0e5a3a5!2sScheme%2033%20Karachi!5e0!3m2!1sen!2s!4v1691800000102' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
       },
       "features": {
         "plot_size": "400 Sq Yards",
@@ -65,7 +69,9 @@
       "location": {
         "city": "Karachi",
         "area": "Gadap Town",
-        "address": "Survey #201, Deh Kharkharo"
+        "address": "Survey #201, Deh Kharkharo",
+        "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.7336117767115!2d67.2602!3d25.0392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb345c0b7a7c7c7%3A0xb55b57b0d9c7e87a!2sGadap%20Town%2C%20Karachi!5e0!3m2!1sen!2s!4v1691800000103' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
       },
       "features": {
         "plot_size": "1.5 Acres",
@@ -93,7 +99,9 @@
       "location": {
         "city": "Karachi",
         "area": "DHA City",
-        "address": "Plot #71, Sector 6-C"
+        "address": "Plot #71, Sector 6-C",
+          "map_embed": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.030883930949!2d67.3352!3d24.9912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f731a33f2c1%3A0xa4b82f2b02e85d3b!2sDHA%20City%20Karachi!5e0!3m2!1sen!2s!4v1691800000104' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"
+
       },
       "features": {
         "plot_size": "300 Sq Yards",
