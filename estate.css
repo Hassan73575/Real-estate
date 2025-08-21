@@ -580,7 +580,30 @@ footer {
       font-size: 1.15rem;
       margin-bottom: 10px;
     }
-
+    .form-card {
+      max-width: 700px;
+      margin: 50px auto;
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      padding: 30px;
+    }
+    .form-title {
+      color: #234040;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    .btn-custom {
+      background: #234040;
+      color: #fff;
+      border-radius: 25px;
+      padding: 10px 30px;
+    }
+    .btn-custom:hover {
+      background: #1a2f2f;
+      color: white;
+    }
     /* 🔹 Responsive Tweaks */
     @media (max-width: 768px) {
       .calculator-card {

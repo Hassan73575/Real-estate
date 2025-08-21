@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Document</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">
+            <i class="fas fa-home"></i>
+            Nestscope
+        </a>
+       <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shared.html">Shared-house</a></li>
+            <li><a href="buyhouse.html">Buy</a></li>
+            <select onchange="location = this.value;">
+                <option value="buyhouse.html">House</option>
+                <option value="Plots.html">Plots/Lands</option>
+                <option value="lowprice.html">lowprice</option>
+                <option value="luxury.html">highprice</option>
+                <option value="luxury.html">luxury</option>
+                <option value="shops.html">Shops</option>
+                <option value="office.html">Offices</option>
+            </select>
+            <li><a href="rent.html">Rent</a></li>
+            <select onchange="location = this.value;">
+                <option value="buyhouse.html">House</option>
+                <option value="shops.html">Shops</option>
+                <option value="office.html">Offices</option>
+                <option value="beach.html">Beach Huts</option>
+            </select>
+        </ul>
+    </nav>
+    <div class="container">
+    <div class="form-card">
+      <h2 class="form-title">🏠 House Installment Booking Form</h2>
+      <form onsubmit="confirm()">
+        
+        <!-- Booker Image -->
+        <div class="mb-3">
+          <label for="image" class="form-label">Upload Your Image</label>
+          <input type="file" class="form-control" id="image" required>
+        </div>
+
+        <!-- CNIC -->
+        <div class="mb-3">
+          <label for="cnic" class="form-label">CNIC Number</label>
+          <input type="text" class="form-control" id="cnic" placeholder="XXXXX-XXXXXXX-X" required>
+        </div>
+
+        <!-- Personal Number -->
+        <div class="mb-3">
+          <label for="phone" class="form-label">Personal Number</label>
+          <input type="tel" class="form-control" id="phone" placeholder="+92-XXX-XXXXXXX" required>
+        </div>
+
+        <!-- Full Name -->
+        <div class="mb-3">
+          <label for="fullname" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="fullname" placeholder="Enter your full name" required>
+        </div>
+
+        <!-- Email -->
+        <div class="mb-3">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" class="form-control" id="email" placeholder="example@email.com">
+        </div>
+
+       
+
+        <!-- Total Price -->
+        <div class="mb-3">
+          <label for="totalPrice" class="form-label">Total House Price (PKR)</label>
+          <input type="number" class="form-control" id="totalPrice" placeholder="e.g. 5,000,000" required>
+        </div>
+
+        <!-- Down Payment -->
+       
+        <!-- Installment Plan -->
+        <div class="mb-3">
+          <label for="plan" class="form-label">Installment Plan</label>
+          <select class="form-select" id="plan" required>
+            <option value="" selected disabled>-- Select Installment Plan --</option>
+            <option>12 Months</option>
+            <option>24 Months</option>
+            <option>36 Months</option>
+            <option>48 Months</option>
+          </select>
+        </div>
+
+        <!-- Monthly Installment -->
+        <div class="mb-3">
+          <label for="installment" class="form-label"> Monthly Installment </label>
+          <input type="number" class="form-control" id="installment" placeholder="" required>
+        </div>
+
+        <!-- Booking Date -->
+        <div class="mb-3">
+          <label for="date" class="form-label">Booking Date</label>
+          <input type="date" class="form-control" id="date" required>
+        </div>
+
+
+        <!-- Submit -->
+        <div class="text-center">
+          <button type="submit" class="btn btn-custom">Book on Installments</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+    <footer class="footer-pro">
+        <div class="footer-content-pro">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Real Estate Portal is your trusted partner in finding the perfect property. We provide comprehensive real estate solutions across Pakistan.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="buyhouse.html">Buy Property</a></li>
+                    <li><a href="sell.html">Sell Property</a></li>
+                    <li><a href="rent.html">Rent Property</a></li>
+                    <li><a href="luxury.html">Luxury Homes</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Real Estate Ave, Karachi</li>
+                    <li><i class="fas fa-phone"></i> +92 300 1234567</li>
+                    <li><i class="fas fa-envelope"></i> info@realestate.com</li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Real Estate Portal. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        function confirm(){
+            alert("Intallment done successfuly");
+            window.location.href="index.html";
+            return false ;
+
+        };
+
+    </script>
+</body>
+</html>
