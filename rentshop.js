@@ -41,7 +41,7 @@ async function linkwaladata() {
                         <td>${data.properties[keys].features.available}</td>
                     </tr>
                 </table>
-                <a href="buyhouse.html" class="card-btn">Explore Buying</a>
+                <a href="booking-form.html" class="card-btn">Book</a>
             </div>
        `};
 };

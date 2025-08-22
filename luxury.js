@@ -49,7 +49,8 @@ async function linkwaladata() {
                     </tr>
                    
                 </table>
-                <a href="buyhouse.html" class="card-btn">Explore Buying</a>
+                <a href="booking-form.html" class="card-btn">Book-house</a>
+                <a href="installments.html" class="card-btn">Installment</a>
             </div>
        `};
 };

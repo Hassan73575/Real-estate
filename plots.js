@@ -6,7 +6,7 @@ async function linkwaladata() {
         <div class="card">
                 <div class="map">
                     ${data.properties[keys].location.map_embed}
-                </div>s
+                </div>
                 <i class="fas fa-home card-icon"></i>
                 <h2>${data.properties[keys].title}</h2>
                 <p>${data.properties[keys].type}</p>
@@ -49,8 +49,8 @@ async function linkwaladata() {
                     </tr>
                    
                 </table>
-                <a href="buyhouse.html" class="card-btn">Explore Buying</a>
-            </div>
+                <a href="booking-form.html" class="card-btn">Book-house</a>
+                <a href="installments.html" class="card-btn">Installment</a>            </div>
        `};
 };
 linkwaladata();
