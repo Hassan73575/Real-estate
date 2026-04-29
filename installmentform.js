@@ -63,4 +63,5 @@ function downloadword(){
     window.docx.Packer.toBlob(doc).then(blob => {
         saveAs(blob, "Installment_Form.docx");
     });
+    
 }
