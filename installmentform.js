@@ -1,8 +1,17 @@
 async function downloadword(event) {
 
-    event.preventDefault(); // page reload stop
+    event.preventDefault();
+
+    const {
+        Document,
+        Packer,
+        Paragraph,
+        TextRun,
+        ImageRun
+    } = docx;   // ✅ IMPORTANT FIX
 
     const image = document.getElementById("image").files[0];
+
     const cnic = document.getElementById("cnic").value;
     const phone = document.getElementById("phone").value;
     const fullname = document.getElementById("fullname").value;
@@ -20,12 +29,11 @@ async function downloadword(event) {
 
     let children = [];
 
-    // ✅ IMAGE (optional)
     if (imageBuffer) {
         children.push(
-            new window.docx.Paragraph({
+            new Paragraph({
                 children: [
-                    new window.docx.ImageRun({
+                    new ImageRun({
                         data: imageBuffer,
                         transformation: {
                             width: 120,
@@ -37,43 +45,36 @@ async function downloadword(event) {
         );
     }
 
-    // TITLE
     children.push(
-        new window.docx.Paragraph({
+        new Paragraph({
             children: [
-                new window.docx.TextRun({
+                new TextRun({
                     text: "Real Estate Installment Form",
                     bold: true,
                     size: 32
                 })
             ]
-        })
+        }),
+
+        new Paragraph(" "),
+        new Paragraph("Full Name: " + fullname),
+        new Paragraph("CNIC: " + cnic),
+        new Paragraph("Phone: " + phone),
+        new Paragraph("Email: " + email),
+        new Paragraph("Total Price: " + totalprice),
+        new Paragraph("Installment Plan: " + installmentplan),
+        new Paragraph("Monthly Installment: " + monthlyinstallment),
+        new Paragraph("Date: " + date)
     );
 
-    children.push(new window.docx.Paragraph(" "));
-
-    // FORM DATA
-    children.push(
-        new window.docx.Paragraph("Full Name: " + fullname),
-        new window.docx.Paragraph("CNIC: " + cnic),
-        new window.docx.Paragraph("Phone: " + phone),
-        new window.docx.Paragraph("Email: " + email),
-        new window.docx.Paragraph("Total Price: " + totalprice),
-        new window.docx.Paragraph("Installment Plan: " + installmentplan),
-        new window.docx.Paragraph("Monthly Installment: " + monthlyinstallment),
-        new window.docx.Paragraph("Date: " + date)
-    );
-
-    // DOCUMENT CREATE
-    const doc = new window.docx.Document({
+    const doc = new Document({
         sections: [{
             children: children
         }]
     });
 
-    // DOWNLOAD
-    const blob = await window.docx.Packer.toBlob(doc);
+    const blob = await Packer.toBlob(doc);
     saveAs(blob, "Installment_Form.docx");
 
-    alert("Installment form downloaded successfully ✅");
+    alert("Downloaded successfully ✅");
 }
