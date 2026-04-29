@@ -1,13 +1,13 @@
 async function downloadword(event) {
 
-    event.preventDefault(); // ✅ page reload rokna
+    event.preventDefault(); // page reload stop
 
     const image = document.getElementById("image").files[0];
     const cnic = document.getElementById("cnic").value;
     const phone = document.getElementById("phone").value;
     const fullname = document.getElementById("fullname").value;
     const email = document.getElementById("email").value;
-    const totalprice = document.getElementById("totalPrice").value; // ✅ fixed
+    const totalprice = document.getElementById("totalPrice").value;
     const installmentplan = document.getElementById("plan").value;
     const monthlyinstallment = document.getElementById("installment").value;
     const date = document.getElementById("date").value;
@@ -20,7 +20,7 @@ async function downloadword(event) {
 
     let children = [];
 
-    // ✅ Image add
+    // ✅ IMAGE (optional)
     if (imageBuffer) {
         children.push(
             new window.docx.Paragraph({
@@ -37,6 +37,7 @@ async function downloadword(event) {
         );
     }
 
+    // TITLE
     children.push(
         new window.docx.Paragraph({
             children: [
@@ -49,8 +50,10 @@ async function downloadword(event) {
         })
     );
 
+    children.push(new window.docx.Paragraph(" "));
+
+    // FORM DATA
     children.push(
-        new window.docx.Paragraph(" "),
         new window.docx.Paragraph("Full Name: " + fullname),
         new window.docx.Paragraph("CNIC: " + cnic),
         new window.docx.Paragraph("Phone: " + phone),
@@ -61,14 +64,16 @@ async function downloadword(event) {
         new window.docx.Paragraph("Date: " + date)
     );
 
+    // DOCUMENT CREATE
     const doc = new window.docx.Document({
         sections: [{
             children: children
         }]
     });
 
+    // DOWNLOAD
     const blob = await window.docx.Packer.toBlob(doc);
     saveAs(blob, "Installment_Form.docx");
 
-    alert("Installment form downloaded ✅");
+    alert("Installment form downloaded successfully ✅");
 }
